@@ -881,16 +881,19 @@ header .row {
 }
 
 .testimonial__rating {
-  color: rgb(246 173 85);
   margin-left: 2px;
   margin-top: 4px;
 }
 
 .fa-star {
-  color: rgb(246 173 85);
+  color: rgb(246, 173, 85);
   display: inline-block;
   height: 1.25rem;
   width: 1.25rem;
+}
+
+.testimonial__rating svg path{
+  color: rgb(246, 173, 85);
 }
 
 .testimonial__title {
